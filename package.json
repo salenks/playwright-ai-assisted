@@ -1,0 +1,29 @@
+{
+  "name": "playwright-ai-assisted",
+  "version": "1.0.0",
+  "description": "Repository to use while learning Playwright with AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salenks/playwright-ai-assisted.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/salenks/playwright-ai-assisted/issues"
+  },
+  "homepage": "https://github.com/salenks/playwright-ai-assisted#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.8.0"
+  }
+}
